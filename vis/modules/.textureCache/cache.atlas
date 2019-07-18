@@ -1,0 +1,461 @@
+
+cache.png
+size: 2048,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+sprites/icons/upIcon
+  rotate: false
+  xy: 1286, 207
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+sprites/menu/menu
+  rotate: false
+  xy: 2, 17
+  size: 640, 480
+  orig: 640, 480
+  offset: 0, 0
+  index: -1
+sprites/menu/simpleMenu
+  rotate: false
+  xy: 644, 17
+  size: 640, 480
+  orig: 640, 480
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet
+  rotate: false
+  xy: 1286, 241
+  size: 400, 256
+  orig: 400, 256
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0018
+  rotate: false
+  xy: 1688, 371
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0020
+  rotate: false
+  xy: 1286, 62
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0021
+  rotate: false
+  xy: 1303, 159
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0026
+  rotate: false
+  xy: 2, 2
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0027
+  rotate: false
+  xy: 1688, 484
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0028
+  rotate: false
+  xy: 1286, 192
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0029
+  rotate: false
+  xy: 1320, 226
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0033
+  rotate: false
+  xy: 1688, 354
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0034
+  rotate: false
+  xy: 1286, 45
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0037
+  rotate: false
+  xy: 20, 2
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0038
+  rotate: false
+  xy: 1688, 469
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0039
+  rotate: false
+  xy: 1688, 337
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0040
+  rotate: false
+  xy: 1286, 28
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0041
+  rotate: false
+  xy: 1706, 484
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0042
+  rotate: false
+  xy: 1286, 177
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0048
+  rotate: false
+  xy: 1286, 129
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0049
+  rotate: false
+  xy: 1688, 406
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0050
+  rotate: false
+  xy: 1286, 112
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0051
+  rotate: false
+  xy: 1688, 389
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0056
+  rotate: false
+  xy: 1320, 210
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0057
+  rotate: false
+  xy: 1688, 453
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0058
+  rotate: false
+  xy: 1705, 468
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0059
+  rotate: false
+  xy: 1286, 161
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0063
+  rotate: false
+  xy: 1688, 320
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0064
+  rotate: false
+  xy: 1688, 303
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0065
+  rotate: false
+  xy: 1688, 286
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0066
+  rotate: false
+  xy: 1688, 269
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0071
+  rotate: false
+  xy: 1338, 226
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0072
+  rotate: false
+  xy: 37, 2
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0074
+  rotate: false
+  xy: 1723, 484
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0075
+  rotate: false
+  xy: 1337, 211
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0078
+  rotate: false
+  xy: 1688, 252
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0079
+  rotate: false
+  xy: 1722, 437
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0082
+  rotate: false
+  xy: 1286, 80
+  size: 14, 30
+  orig: 14, 30
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0084
+  rotate: false
+  xy: 1688, 438
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0085
+  rotate: false
+  xy: 1705, 453
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0089
+  rotate: false
+  xy: 1722, 469
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0090
+  rotate: false
+  xy: 1286, 146
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0093
+  rotate: false
+  xy: 1739, 452
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0094
+  rotate: false
+  xy: 1756, 467
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0098
+  rotate: false
+  xy: 1355, 226
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0099
+  rotate: false
+  xy: 54, 2
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0103
+  rotate: false
+  xy: 1740, 484
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0104
+  rotate: false
+  xy: 1354, 211
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0113
+  rotate: false
+  xy: 1387, 224
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0114
+  rotate: false
+  xy: 1402, 224
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0115
+  rotate: false
+  xy: 1417, 224
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0116
+  rotate: false
+  xy: 1432, 224
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0121
+  rotate: false
+  xy: 1688, 423
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0122
+  rotate: false
+  xy: 1705, 438
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0123
+  rotate: false
+  xy: 1722, 454
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/spriteSheet_0124
+  rotate: false
+  xy: 1739, 469
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/down1
+  rotate: false
+  xy: 1304, 192
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/down2
+  rotate: false
+  xy: 1303, 177
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/left1
+  rotate: false
+  xy: 1372, 226
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/left2
+  rotate: false
+  xy: 71, 2
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/right1
+  rotate: false
+  xy: 1757, 484
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/right2
+  rotate: false
+  xy: 1371, 211
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/up1
+  rotate: false
+  xy: 86, 2
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/tanks/yellow/level_1/up2
+  rotate: false
+  xy: 1772, 484
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sprites/upIcon
+  rotate: false
+  xy: 1771, 466
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1

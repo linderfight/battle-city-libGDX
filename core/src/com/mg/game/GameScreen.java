@@ -1,12 +1,12 @@
 package com.mg.game;
-
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class GameScreen implements Screen{
 
@@ -15,33 +15,59 @@ public class GameScreen implements Screen{
     private OrthographicCamera camera;
     private SpriteBatch batch;
     private float stateTime;
+    private Tank player1;
+    private Sound startLevelSound;
+    private Sound engineSound;
 
-
-
-    GameScreen(gdxGame game, int playerCount){
+    public GameScreen(gdxGame game, int playerCount) {
         this.playerCount = playerCount;
         this.game = game;
         camera = new OrthographicCamera();
         camera.setToOrtho(true, 640, 480);
         batch = new SpriteBatch();
         stateTime = 0F;
-        Assets.loadGameAssets();
+        player1 = new Tank("yellow", 1);
+
+        Assets.loadGameAssets(player1.getColour(), player1.getLevel());
     }
 
     // Render basics for each screen
     @Override
     public void render(float delta){
-        Gdx.gl.glClearColor( 0, 0, 0, 0 );
+
+        Gdx.gl.glClearColor((float)192/255,(float)192/255,(float)192/255,1);
         Gdx.gl.glClear( GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT );
         camera.update();
+        stateTime += Gdx.graphics.getDeltaTime();
+        TextureRegion frame = checkKeyPress();
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
-        renderBasics();
+        batch.draw(Assets.levelBack, 0, 0, 480, 480);
+        batch.draw(frame, player1.positionX, player1.positionY, 26, 26);
         batch.end();
+
     }
 
-    public void renderBasics(){
-       // spawnTank(1, yellow, x, y)
+    private TextureRegion checkKeyPress(){
+
+        if(Gdx.input.isKeyPressed(Input.Keys.DOWN)){
+            player1.moveDown();
+            Assets.current_frame = Assets.movingForwardAnimation.getKeyFrame(stateTime, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.UP)){
+            player1.moveUp();
+            Assets.current_frame = Assets.movingBackwardAnimation.getKeyFrame(stateTime, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+            player1.moveLeft();
+            Assets.current_frame = Assets.movingLeftAnimation.getKeyFrame(stateTime, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+            player1.moveRight();
+            Assets.current_frame = Assets.movingRightAnimation.getKeyFrame(stateTime, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.SPACE)){
+            player1.shoot();
+
+        }
+
+        return Assets.current_frame;
     }
 
     @Override
@@ -54,7 +80,7 @@ public class GameScreen implements Screen{
 
     @Override
     public void show(){
-        Assets.levelBeginSound.play();
+        Gdx.audio.newSound(Gdx.files.internal("sounds/startLevel.mp3")).play();
     }
 
     @Override

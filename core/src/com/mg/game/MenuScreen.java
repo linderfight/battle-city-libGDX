@@ -31,7 +31,7 @@ public class MenuScreen implements Screen{
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         camera.update();
         stateTime += Gdx.graphics.getDeltaTime();
-        Assets.current_frame = Assets.loading_animation.getKeyFrame(stateTime, true);
+        Assets.current_frame = Assets.movingTankAnimation.getKeyFrame(stateTime, true);
         batch.setProjectionMatrix(camera.combined);
 
         batch.begin();
@@ -57,8 +57,6 @@ public class MenuScreen implements Screen{
             }
         }
     }
-
-
 
     @Override
     public void resize(int width, int height){

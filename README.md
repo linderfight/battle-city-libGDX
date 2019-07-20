@@ -8,7 +8,9 @@
 
 
 ## Description
-A remake of the original "Battle City" game published in 1985 by Namco.
+A remake of the original "Battle City" game published in 1985 by Namco. 
+
+It uses libGDX as a game development framework.
 
 
 

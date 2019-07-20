@@ -10,7 +10,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "Battle City";
 		cfg.useGL30 = true;
-		cfg.width = 650;
+		cfg.width = 640;
 		cfg.height = 480;
 		cfg.resizable = false;
 		cfg.addIcon("sprites/icons/upIcon.png", Files.FileType.Internal);

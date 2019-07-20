@@ -1,6 +1,7 @@
 package com.mg.game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
@@ -27,7 +28,8 @@ public class GameScreen implements Screen{
         batch = new SpriteBatch();
         stateTime = 0F;
         player1 = new Tank("yellow", 1);
-
+        Music levelSound = Gdx.audio.newMusic(Gdx.files.internal("sounds/startLevel.mp3"));
+        levelSound.play();
         Assets.loadGameAssets(player1.getColour(), player1.getLevel());
     }
 
@@ -45,11 +47,9 @@ public class GameScreen implements Screen{
         batch.draw(Assets.levelBack, 0, 0, 480, 480);
         batch.draw(frame, player1.positionX, player1.positionY, 26, 26);
         batch.end();
-
     }
 
     private TextureRegion checkKeyPress(){
-
         if(Gdx.input.isKeyPressed(Input.Keys.DOWN)){
             player1.moveDown();
             Assets.current_frame = Assets.movingForwardAnimation.getKeyFrame(stateTime, true);
@@ -80,7 +80,7 @@ public class GameScreen implements Screen{
 
     @Override
     public void show(){
-        Gdx.audio.newSound(Gdx.files.internal("sounds/startLevel.mp3")).play();
+
     }
 
     @Override
